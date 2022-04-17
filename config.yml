@@ -1,0 +1,24 @@
+tp:
+    middmorten: 
+        world: world
+        x: -349.500
+        y: 71.500
+        yaw: 0
+        z: -271.500
+    alchea: 
+        world: world
+        x: 692.500
+        y: 65.500
+        yaw: 0
+        z: -54.500
+    malamas: 
+        world: world
+        x: 692.500
+        y: 65.500
+        yaw: 0
+        z: -54.500
+bank:
+    Yweelon: 0
+    Zaukyo_Tato: 0
+    Malamas: 0
+    

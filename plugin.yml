@@ -1,0 +1,57 @@
+name: Yweeplugin #nom du plugin
+main: fr.yweelon.yweeplugin.Main #nous y reviendrons plus tard
+author: Yweelon #Auteur du plugin
+version: 1.0 #Version du plugin
+dependecies: #de quel plugin il dépendra, dans notre cas, nous n'allons utiliser aucun autre plugin...
+api-version: 1.18 #Version sur laquelle le plugin fonctionnera
+commands: #les commandes
+  alchea: 
+    descriptions: Te tp dans le royaume d'alchea
+    permissions:
+      alchea.*:
+      default: notop
+  middmorten:
+    description: Te tp dans le royaume de middmorten 
+    permissions:
+      middmorten.*:
+      default: notop
+  build: 
+    description: Te tp dans le monde build
+    permissions:
+      build.*:
+      default: notop
+  spawn: 
+    description: Te tp au spawn
+    permissions:
+      spawn.*:
+      default: notop
+  wood: 
+    description: Te tp dans le monde arbre
+    permissions:
+      wood.*:
+      default: notop
+  setmiddmorten: 
+    description: set le spawn de middmorten
+    permissions:
+      setmiddmorten.*:
+      default: notop
+  setalchea: 
+    description: set le spawn d'alchea
+    permissions:
+      setalchea.*:
+      default: notop
+  malamas: 
+    description: Te tp dans la zone de malamas
+    permissions:
+      malamas.*:
+      default: notop
+  setmalamas: 
+    description: set le spawn de la zone de malamas
+    permissions:
+      setmalamas.*:
+      default: notop
+  bank:
+    description: commande de banque
+    permissions:
+      bank.*:
+      default: notop
