@@ -10,6 +10,7 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 
 public class Events implements Listener {
+	
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent e) {
 		Player player = e.getPlayer(); 

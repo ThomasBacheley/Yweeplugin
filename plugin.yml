@@ -50,8 +50,13 @@ commands: #les commandes
     permissions:
       setmalamas.*:
       default: notop
-  bank:
-    description: commande de banque
+  map: 
+    description: affiche un lien vers la dynmap
     permissions:
-      bank.*:
+      map.*:
+      default: notop
+  carte: 
+    description: affiche un lien vers la dynmap
+    permissions:
+      carte.*:
       default: notop
